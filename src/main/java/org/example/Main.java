@@ -15,8 +15,10 @@ public class Main {
     public static void main(String[] args) {
         Date date=new Date();
         times=date.getTime();
-        String url="https://m.qishuta.org/Shtml23858.html";
-        String name="遮天";
+        String url="https://m.qishuta.org/Shtml82535.html";
+        //名字最好不要是数字，合并的时候会出错
+        String name="神印王座";
         Get.getAllTxt(url,name);
+
     }
 }
